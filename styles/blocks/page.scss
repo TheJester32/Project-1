@@ -1,7 +1,26 @@
+@font-face {
+    font-family: "PT-Serif";
+    font-style: normal;
+    font-weight: 400;
+    src: './fonts/PTSerif-Regular.woff2'
+  }
+
+  @font-face {
+    font-family: "PT-Serif";
+    font-style: bold;
+    font-weight: 700;
+    src: './fonts/PTSerif-Bold.woff2'
+  }
+
+
 body {
-    background-color: #333232;
+    margin: 0;
+    background-color: #7c7c7c;
     color: #fff;
+    font-family: "PT-Serif", sans-serif;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 
+//test
