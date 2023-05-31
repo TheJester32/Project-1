@@ -1,3 +1,85 @@
 .navigation__item, .social-medias__item {
+    z-index: 10;
     list-style-type: none;
+}
+
+.navigation {
+    margin: 0 auto;
+    position: relative;
+    padding: 25px 0px 20px 70px;
+    display: flex;
+    background-color: rgba(255,0,0,0.5);
+    height: 20px;
+}
+
+.navigation__item {
+   padding-left: 50px;
+}
+
+.cart-button__text {
+    padding-left: 950px;
+    padding-right: 5px;
+}
+
+.cart-button__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.main-logo {
+    z-index: 100;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.cart {
+    z-index: 100;
+}
+
+.social-medias {
+    background-color: rgba(36, 39, 139, 0.3);
+
+}
+
+.social-medias__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.social-medias__item {
+    padding-top: 15px;
+}
+
+.social-medias__solical-medias-container {
+    display: flex;
+    width: 45%;
+}
+
+.social-medias__text {
+    margin: 0;
+    padding-right: 740px;
+    padding-top: 20px;
+}
+
+.social-medias__secondary-text {
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 130px;
+    padding-left: 170px;
+}
+
+.signup-button {
+    background-color: rgb(250, 250, 250, 0.5);
+    color: #222;
+    padding-left: 20px;
+    padding-right: 25px;
+    font-weight: 800;
+    cursor: pointer;
 }
