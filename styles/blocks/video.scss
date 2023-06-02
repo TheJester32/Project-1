@@ -1,3 +1,27 @@
 video {
     padding: 5px 300px 20px 300px;
 }
+
+.video {
+    background-image: url("../images/videoback.jpg");
+    padding-bottom: 5px;
+}
+
+.company-logo {
+    margin-left: 420px;
+    margin-bottom: 35px;
+}
+
+.platforms-container {
+    margin-left: 320px;
+}
+
+.video__platform-logo {
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+
+.video__text {
+    padding: 0px 100px 0px 70px;
+    font-size: 15px;
+}
