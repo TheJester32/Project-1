@@ -1,0 +1,32 @@
+.footer__form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 250px;
+}
+
+.footer__text {
+    padding-right: 350px;
+}
+
+.footer__form:after {
+    content: "You agree to receive our HUNT newsletter. You may withdraw your consent at any time. For further information please check out our privacy policy";
+    font-size: 10px;
+}
+
+.footer__images-container {
+    margin-left: 85px;
+}
+
+.footer__image{
+    padding-left: 10px;
+}
+
+.footer__pictures-container{
+    display: flex;
+}
+
+.footer__logos-container {
+    margin-left: 550px;
+}

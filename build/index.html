@@ -44,17 +44,19 @@
             <a href="https://www.crytek.com/"><img class="video__logo company-logo" src="icons/crytek.png" alt="..."
                     width="400px" height=auto></a>
             <a href="https://www.cryengine.com/"><img class="video__logo engine-logo" src="icons/cryengine.png"
-                    alt="..." width="400px" height=auto></a>
-            <video type="video/mp4" src="./videos/welcome-video.mp4" muted="muted" width="1200" height=500 loop="loop"
+                    alt="..." width="300px" height=200></a>
+            <video type="video/mp4" src="./videos/welcome-video.mp4" muted="muted" width="1200" height=auto loop="loop"
                 autoplay="autoplay">
             </video>
-            <a href="https://store.steampowered.com/agecheck/app/594650/"><img class="video__logo steam-logo"
-                    src="icons/steam.png" alt="..." width="400px" height=auto></a>
-            <a href="https://store.epicgames.com/en-US/"><img class="video__logo epic-games-logo"
-                    src="icons/epic-games.png" alt="..." width="400px" height=auto></a>
-            <a href="https://www.ea.com/ru-ru/ea-app"><img class="video__logo origin-logo" src="icons/origin.png"
-                    alt="..." width="400px" height=auto></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            <div class="platforms-container">
+            <a href="https://store.steampowered.com/agecheck/app/594650/"><img class="video__platform-logo steam-logo"
+                    src="icons/steam.png" alt="..." width="200px" height=auto></a>
+            <a href="https://store.epicgames.com/en-US/"><img class="video__platform-logo epic-games-logo"
+                    src="icons/epic-games.png" alt="..." width="200px" height=auto></a>
+            <a href="https://www.ea.com/ru-ru/ea-app"><img class="video__platform-logo origin-logo" src="icons/origin.png"
+                    alt="..." width="200px" height=auto></a>
+                </div>
+            <p class="video__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -89,11 +91,36 @@
             <img class="weapons__item" src="images/axe.png" alt="Axe" width="325px" height=auto>
         </section>
         <section class="map">
+            <div class="map__text">
+                <h2>New map is comming soon!</h2>
+                <p>September 14th</p>
+            </div>
             <img class="map__newmap" src="images/newmap.jpg" alt="newmap" width="1200px" height=auto>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="footer__form-container">
+        <h2 class="footer__text">Subscribe to get our latest updates</h2>
+        <form class="footer__form" action="" method="post">
+            <p class="footer__form-input">
+                 <input type="footer__form-input-text" class="text" name="enter-email" placeholder="Your e-mail" />
+            </p>
+            <button class="footer__button-subscribe" type="submit">Subscribe</button>
+       </form>
+    </div>
+    <div class="footer__pictures-container">
+    <div class="footer__images-container">
+        <img class="footer__image" src="images/mature.png" alt="mature" width="125px" height=auto>
+        <img class="footer__image" src="images/pegi.jpg" alt="mature" width="60px" height=auto>
+        <img class="footer__image" src="images/usk.png" alt="mature" width="72px" height=auto>
+    </div>
+    <div class="footer__logos-container">
+        <a href="https://www.crytek.com/"><img class="footer__logo" src="icons/crytek.png" alt="..."
+            width="200px" height=auto></a>
+    <a href="https://www.cryengine.com/"><img class="footer__logo" src="icons/cryengine.png"
+            alt="..." width="100px" height=auto></a>
+    </div>
+</div>
     </footer>
 
 </body>
