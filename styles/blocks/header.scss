@@ -13,15 +13,20 @@
 }
 
 .navigation__item {
-   padding-left: 50px;
+   margin-left: 50px;
+}
+
+.navigation__item:hover{
+    cursor: pointer;
+    color: #222;
 }
 
 .cart-button__text {
-    padding-left: 950px;
-    padding-right: 5px;
+    margin-right: 5px;
 }
 
 .cart-button__link {
+    margin-left: 870px;
     text-decoration: none;
     color: #fff;
 }
@@ -64,15 +69,15 @@
 
 .social-medias__text {
     margin: 0;
-    padding-right: 740px;
+    margin-right: 740px;
     padding-top: 20px;
 }
 
 .social-medias__secondary-text {
     margin: 0;
-    padding-top: 15px;
-    padding-right: 130px;
-    padding-left: 170px;
+    padding-top: 20px;
+    margin-left: 450px;
+    margin-right: 50px;
 }
 
 .signup-button {

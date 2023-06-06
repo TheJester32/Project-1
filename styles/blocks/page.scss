@@ -1,25 +1,40 @@
-@font-face {
-    font-family: "PT-Serif";
-    font-style: normal;
-    font-weight: 400;
-    src: './fonts/PTSerif-Regular.woff2'
-  }
+$desktop-width: 1920px;
 
-  @font-face {
-    font-family: "PT-Serif";
-    font-style: bold;
-    font-weight: 700;
-    src: './fonts/PTSerif-Bold.woff2'
+.body__container{
+  @media (max-width: $desktop-width) {
+    margin: 0 auto;
   }
+}
+
+@media not (max-width: $desktop-width) { 
+  .body__container {
+    margin-left: 330px;
+    margin-right: 330px;
+  }
+ }
+
+@font-face {
+  font-family: "PT-Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: './fonts/PTSerif-Regular.woff2'
+}
+
+@font-face {
+  font-family: "PT-Serif";
+  font-style: bold;
+  font-weight: 700;
+  src: './fonts/PTSerif-Bold.woff2'
+}
 
 
 body {
-    margin: 0;
-    background-color: #333131;
-    color: #fff;
-    font-family: "PT-Serif", sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
+  margin: 0;
+  background-color: #333131;
+  color: #fff;
+  font-family: "PT-Serif", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 
