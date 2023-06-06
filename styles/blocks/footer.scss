@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 250px;
     margin-right: 250px;
 }
 
@@ -10,13 +10,12 @@
     padding-right: 350px;
 }
 
-.footer__form:after {
-    content: "You agree to receive our HUNT newsletter. You may withdraw your consent at any time. For further information please check out our privacy policy";
+.footer__form-terms {
     font-size: 10px;
 }
 
 .footer__images-container {
-    margin-left: 85px;
+    margin-left: 235px;
 }
 
 .footer__image{
@@ -28,5 +27,65 @@
 }
 
 .footer__logos-container {
-    margin-left: 550px;
+    margin-left: 456px;
+}
+
+.footer__list-container{
+    display: flex;
+}
+
+.footer__social-medias {
+    list-style-type: none;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+}
+
+.footer__policy-list {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 320px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.footer__social-medias-text{
+    margin-left: 240px;
+}
+
+.footer__rights{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.footer__trademarks{
+    text-align: center;
+    font-size: 13px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.footer__form-input-text {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(250, 250, 250, 0.5);
+}
+
+.footer__button-subscribe{
+    width: 100px;
+    height: 50px;
+    margin-top: 21px;
+    margin-left: 2px;
+    background-color: rgb(250, 250, 250, 0.5);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer__email-container{
+    margin-left: 3px;
+    margin-right: 50px;
+    display: flex;
 }
