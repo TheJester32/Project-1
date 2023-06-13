@@ -125,12 +125,12 @@
             </div>
             <div class="hunters__presentation">
                 <div class="hunters__container">
-                    <img class="hunters__hunter" src="images/ochenkova.jpg" alt="..." width="150px" height=150px>
-                    <img class="hunters__hunter" src="images/redneck.jpg" alt="..." width="150px" height=150px>
-                    <img class="hunters__hunter" src="images/weird.jpg" alt="..." width="150px" height=150px>
-                    <img class="hunters__hunter" src="images/revenant.jpg" alt="..." width="150px" height=150px>
-                    <img class="hunters__hunter" src="images/seer.jpg" alt="..." width="150px" height=150px>
-                    <img class="hunters__hunter" src="images/mountain.jpg" alt="..." width="150px" height=150px>
+                    <img class="hunters__hunter ochenkova hunters__on" src="images/ochenkova.jpg" alt="..." width="150px" height=150px>
+                    <img class="hunters__hunter redneck" src="images/redneck.jpg" alt="..." width="150px" height=150px>
+                    <img class="hunters__hunter weird" src="images/weird.jpg" alt="..." width="150px" height=150px>
+                    <img class="hunters__hunter revenant" src="images/revenant.jpg" alt="..." width="150px" height=150px>
+                    <img class="hunters__hunter seer" src="images/seer.jpg" alt="..." width="150px" height=150px>
+                    <img class="hunters__hunter mountain" src="images/mountain.jpg" alt="..." width="150px" height=150px>
                 </div>
                 <video class="hunters__video" type="video/mp4" src="./videos/ochenkova.mp4" muted="muted" width=1200
                     height=500 loop="loop" autoplay="autoplay">
@@ -241,6 +241,23 @@
 <h3 class="footer__rights">© 2023 CRYTEK GMBH. ALL RIGHTS RESERVED.</h3>
 <p class="footer__trademarks">Crytek, CRYENGINE, Hunt Showdown and the respective logos are trademarks or registered trademarks of the Crytek group in the EU, U.S. and/or other territories. All other trademarks are the property of their respective owners.</p>
     </footer>
+    <div id="popup" class="popup visually-hidden">
+        <div class="popup__close-button"></div>
+        <div class="popup__body">
+            <form class="popup__form" action="" method="post">
+                <div class="popup__email-container">
+                <p class="popup__form-input">
+                     <input type="input" class="popup__form-input-text" name="enter-email" placeholder="Your e-mail" />
+                </p>
+                <button class="popup__button-subscribe" type="submit">Sign up</button>
+            </div>
+            <label class="popup__form-terms">
+                <input type="checkbox">
+                You agree to receive our HUNT newsletter. You may withdraw your consent at any time. For further information please check out our <a href="https://www.huntshowdown.com/privacy">privacy policy.</a>
+              </label>
+            </form>
+        </div>
+    </div>
 </div>
 <script src="js/main.js" type="module"></script>
 </body>
