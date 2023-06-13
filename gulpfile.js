@@ -39,6 +39,26 @@ gulp.task('js-slider', function (done) {
        done()
 });
 
+gulp.task('js-popup', function (done) {
+    gulp.src('js/popup.js')
+       .pipe(plumber())
+       .pipe(sourceMaps.init())
+       .pipe(sourceMaps.write())
+       .pipe(gulp.dest('build/js'))
+       .pipe(browserSync.reload({ stream: true }));
+       done()
+});
+
+gulp.task('js-hunters', function (done) {
+    gulp.src('js/hunters.js')
+       .pipe(plumber())
+       .pipe(sourceMaps.init())
+       .pipe(sourceMaps.write())
+       .pipe(gulp.dest('build/js'))
+       .pipe(browserSync.reload({ stream: true }));
+       done()
+});
+
 gulp.task('html', function () {
     return gulp.src('*html')
         .pipe(gulp.dest('build'))
@@ -53,6 +73,8 @@ gulp.task('start', function (done) {
     gulp.watch('*.html', gulp.series('html'));
     gulp.watch('js/*.js', gulp.series('js'));
     gulp.watch('js/*.js', gulp.series('js-slider'));
+    gulp.watch('js/*.js', gulp.series('js-popup'));
+    gulp.watch('js/*.js', gulp.series('js-hunters'));
     done()
 });
 

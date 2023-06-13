@@ -5,7 +5,6 @@ const buttonPrev = document.querySelector('.weapons__slider-button-prev')
 
 
 buttonNext.addEventListener('click', () => {
-    console.log('test')
     offset += 825
     if(offset > 2475) {
         offset = 0
@@ -15,7 +14,6 @@ buttonNext.addEventListener('click', () => {
 
 
 buttonPrev.addEventListener('click', () => {
-    console.log('test')
     offset -= 825
     if(offset < 0) {
         offset = 2475
